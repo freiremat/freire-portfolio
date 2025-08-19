@@ -1,0 +1,40 @@
+footer {
+  padding: 20px;
+  height: 50px;
+  background: #fff;
+  text-align: center;
+  border-top: 2px solid #ddd;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.footer-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 12px;
+  font-size: 2.2rem;
+  transition: .2s;
+}
+
+.footer-icons i {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  color: inherit;
+  background: #f3f3f3;
+}
+
+.footer-icons a:hover {
+  background: #f0f0f0;
+}
+
+.footer-icons a svg {
+  display: block;
+  transition: filter 0.2s;
+}
